@@ -1,10 +1,10 @@
 # BrainTumorDetection with StreamLit UI
-I created this project by fine tuning the pretrained model ![Efficientnet_V2_small](https://pytorch.org/vision/stable/models/efficientnetv2.html) with ![Brain Tumor Classification Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset) with MPS using ![Pytorch](https://pytorch.org) ![torchvision](https://pytorch.org/vision/stable/index.html) and ![Streamlit](https://streamlit.io).
+I created this project by fine tuning the pretrained model [Efficientnet_V2_small](https://pytorch.org/vision/stable/models/efficientnetv2.html) with [Brain Tumor Classification Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset) with Tools such as [Pytorch](https://pytorch.org) [torchvision](https://pytorch.org/vision/stable/index.html) and [Streamlit](https://streamlit.io).
 
 
-# IF you want to use the App in your system locally you can follow the below tutorial.
+## IF you want to use the App in your system locally you can follow the tutorial.
 
-# MRI Image Classification App
+## MRI Image Classification App
 
 This tutorial will guide you through setting up the MRI Image Classification app locally. The app allows users to upload MRI images, predict classifications, and visualize results, including tumor contouring.
 
@@ -72,7 +72,7 @@ Open your browser and navigate to `http://localhost:xxxx` to view the app.
 
 2. After the image is uploaded, the app will display the original MRI image on the left and the contoured image on the right.
 
-   ![Image Results](UI_Images/image_results.png)
+   ![Image Results](UI_Images/Outlier.png)Outlier
 
 3. If the uploaded image is detected as an outlier (not related to MRI), the app will notify you that it is not an MRI image.
 
@@ -83,7 +83,7 @@ Once the image is uploaded, click the **"Predict"** button. The app will:
 - Display the predicted class of the MRI image.
 - Show the original MRI image and the corresponding contour of the tumor (if detected) side by side.
 
-   ![Prediction](UI_Images/prediction.png)
+   ![Prediction](UI_Images/Pituitary.png)
 
 ### Step 6: Select Existing Image for Prediction
 
@@ -98,6 +98,9 @@ If you want to select an existing MRI image (one you previously uploaded), you c
 - The application is optimized for local runs but can be deployed on cloud platforms like Hugging Face Spaces or Heroku.
 
 ---
+## NOTE:
+- The model cannot generalize the prediction for progduction grade.
+- For better results you can customize your features with more classes that labels images as non-mri-images and more and good luck re-training the model if you do not have good GPU 😂.
 
-This tutorial walks you through the steps of setting up and using the MRI Image Classification app locally. For more details about deployment and advanced usage, refer to the respective sections.
+This tutorial walks you through the steps of setting up and using the MRI Image Classification app locally. 
 
