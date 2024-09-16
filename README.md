@@ -63,7 +63,10 @@ To start the app locally, use the following command:
 ```bash
 streamlit run ['file_name.py']
 ```
-
+In my case it's
+```
+streamlit run brain_tumor_streamlit_ui.py
+```
 Once the app is running, you should see an output like this in your terminal:
 
 ```bash
