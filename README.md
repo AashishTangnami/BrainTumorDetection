@@ -44,6 +44,17 @@ Make sure you have all the dependencies installed by running:
 ```bash
 pip install -r requirements.txt
 ```
+If the installation throws any errors then replace all the dependencies in requirements.txt with following requirements.
+
+```
+torch
+torchvision
+streamlit
+pillow
+watchdog
+opencv-python
+
+```
 
 ### Step 3: Run the Streamlit App
 
